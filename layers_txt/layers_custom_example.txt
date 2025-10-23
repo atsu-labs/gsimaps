@@ -1,0 +1,72 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "カスタムレイヤーの例",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/600.png",
+      "toggleall": false,
+      "html": "<div class='layer_text'>これは独自レイヤーを追加する際の参考例です。このグループには、タイルレイヤー、GeoJSONレイヤー、外部タイルサーバーの例が含まれています。</div>",
+      "entries": [
+        {
+          "type": "Layer",
+          "id": "custom_tile_example",
+          "title": "カスタムタイルレイヤーの例",
+          "url": "https://example.com/tiles/{z}/{x}/{y}.png",
+          "cocotile": true,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'><p>このレイヤーは独自のタイルサーバーからタイルを読み込む例です。</p><p>実際に使用する際は、URLを実際のタイルサーバーのURLに置き換えてください。</p></div><div class='gsi_layerinfo_copy'>© Your Organization</div>",
+          "legendUrl": "https://example.com/legend.html",
+          "errorTileUrl": "./image/map/no-data-std.png"
+        },
+        {
+          "type": "Layer",
+          "id": "custom_geojson_example",
+          "title": "カスタムGeoJSONレイヤーの例",
+          "url": "https://example.com/data/{z}/{x}/{y}.geojson",
+          "cocotile": false,
+          "minZoom": 10,
+          "maxZoom": 18,
+          "maxNativeZoom": 15,
+          "html": "<div class='layer_text'><p>このレイヤーはGeoJSON形式のベクトルデータを表示する例です。</p><p>ポイント、ライン、ポリゴンなどのジオメトリを地図上に表示できます。</p></div>"
+        },
+        {
+          "type": "Layer",
+          "id": "custom_openstreetmap_example",
+          "title": "OpenStreetMapの例",
+          "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "cocotile": false,
+          "minZoom": 0,
+          "maxZoom": 19,
+          "html": "<div class='layer_text'><p>これはOpenStreetMapタイルを使用する例です。</p><p>外部タイルサーバーを使用する際の参考にしてください。</p></div><div class='gsi_layerinfo_copy'>© OpenStreetMap contributors</div>"
+        },
+        {
+          "type": "LayerGroup",
+          "title": "サブグループの例",
+          "toggleall": true,
+          "html": "<div class='layer_text'>レイヤーグループはネストすることができます。</div>",
+          "entries": [
+            {
+              "type": "Layer",
+              "id": "custom_sublayer1",
+              "title": "サブレイヤー1",
+              "url": "https://example.com/sublayer1/{z}/{x}/{y}.png",
+              "minZoom": 0,
+              "maxZoom": 18,
+              "html": "サブグループ内のレイヤー1"
+            },
+            {
+              "type": "Layer",
+              "id": "custom_sublayer2",
+              "title": "サブレイヤー2",
+              "url": "https://example.com/sublayer2/{z}/{x}/{y}.png",
+              "minZoom": 0,
+              "maxZoom": 18,
+              "html": "サブグループ内のレイヤー2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
