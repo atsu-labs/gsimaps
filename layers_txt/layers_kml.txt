@@ -1,0 +1,101 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "KMLレイヤー",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/600.png",
+      "toggleall": false,
+      "html": "<div class='layer_text'>kmlディレクトリ内のKMLファイルから作成したカスタムレイヤーです。災害対応施設や重要施設の位置情報を表示します。</div>",
+      "entries": [
+        {
+          "type": "Layer",
+          "id": "kml_camp",
+          "title": "キャンプ場",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/319.png",
+          "url": "./kml/camp.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>キャンプ場の位置を表示します。</div>"
+        },
+        {
+          "type": "Layer",
+          "id": "kml_medical",
+          "title": "医療施設",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/377.png",
+          "url": "./kml/medical.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>医療施設（病院）の位置を表示します。</div>"
+        },
+        {
+          "type": "Layer",
+          "id": "kml_base_ground",
+          "title": "地上基地",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/019.png",
+          "url": "./kml/baseGround.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>地上基地の位置を表示します。</div>"
+        },
+        {
+          "type": "Layer",
+          "id": "kml_base_air",
+          "title": "航空基地",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/019.png",
+          "url": "./kml/baseAir.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>航空基地の位置を表示します。</div>"
+        },
+        {
+          "type": "Layer",
+          "id": "kml_forward_base_ground",
+          "title": "前進地上基地",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/019.png",
+          "url": "./kml/forwardBaseGround.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>前進地上基地の位置を表示します。</div>"
+        },
+        {
+          "type": "Layer",
+          "id": "kml_helicopter_landing",
+          "title": "ヘリコプター離着陸場",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/110.png",
+          "url": "./kml/helicopterLanding.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>ヘリコプター離着陸場の位置を表示します。</div>"
+        },
+        {
+          "type": "Layer",
+          "id": "kml_refueling_ground",
+          "title": "地上給油所",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/208.png",
+          "url": "./kml/refuelingGround.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>地上給油所の位置を表示します。</div>"
+        },
+        {
+          "type": "Layer",
+          "id": "kml_refueling_air",
+          "title": "航空給油所",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/208.png",
+          "url": "./kml/refuelingAir.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>航空給油所の位置を表示します。</div>"
+        }
+      ]
+    }
+  ]
+}
