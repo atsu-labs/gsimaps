@@ -12,7 +12,7 @@
           "id": "kml_camp",
           "title": "キャンプ場",
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/319.png",
-          "url": "./kml/camp.kml",
+          "url": "https://atsu-labs.github.io/gismap/kml/宿営可能地.kml",
           "cocotile": false,
           "minZoom": 5,
           "maxZoom": 18,
