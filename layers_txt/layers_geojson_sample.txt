@@ -1,0 +1,23 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "GeoJSONサンプルレイヤー",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+      "toggleall": false,
+      "html": "<div class='layer_text'>これはGeoJSON形式のマーカーを表示するサンプルレイヤーです。日本各地の主要なポイントをマーカーで表示しています。</div>",
+      "entries": [
+        {
+          "type": "Layer",
+          "id": "geojson_sample_markers",
+          "title": "サンプルマーカー",
+          "url": "./geojson/sample_markers.geojson",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'><p>GeoJSON形式で定義されたポイントマーカーのサンプルです。</p><p>以下のマーカーが表示されます：</p><ul><li>東京タワー</li><li>国土地理院（つくば）</li><li>富士山</li><li>大阪城</li><li>札幌時計台</li></ul></div>"
+        }
+      ]
+    }
+  ]
+}

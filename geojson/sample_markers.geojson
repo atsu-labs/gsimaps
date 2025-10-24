@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東京タワー",
+        "description": "東京の観光名所",
+        "category": "観光地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.7454, 35.6586]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "国土地理院",
+        "description": "つくば本院",
+        "category": "公共施設"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.0875, 36.1039]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "富士山",
+        "description": "日本最高峰",
+        "category": "自然"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.7274, 35.3606]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大阪城",
+        "description": "歴史的建造物",
+        "category": "観光地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.5258, 34.6873]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "札幌時計台",
+        "description": "札幌のシンボル",
+        "category": "観光地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.3527, 43.0625]
+      }
+    }
+  ]
+}
