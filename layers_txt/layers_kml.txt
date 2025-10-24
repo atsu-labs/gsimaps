@@ -10,20 +10,20 @@
         {
           "type": "Layer",
           "id": "kml_camp",
-          "title": "キャンプ場",
+          "title": "宿営可能地",
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/319.png",
           "url": "https://atsu-labs.github.io/gismap/kml/宿営可能地.kml",
           "cocotile": false,
           "minZoom": 5,
           "maxZoom": 18,
-          "html": "<div class='layer_text'>キャンプ場の位置を表示します。</div>"
+          "html": "<div class='layer_text'>宿営可能地の位置を表示します。</div>"
         },
         {
           "type": "Layer",
           "id": "kml_medical",
-          "title": "医療施設",
+          "title": "医療機関",
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/377.png",
-          "url": "./kml/medical.kml",
+          "url": "https://atsu-labs.github.io/gismap/kml/医療機関.kml",
           "cocotile": false,
           "minZoom": 5,
           "maxZoom": 18,
@@ -32,9 +32,9 @@
         {
           "type": "Layer",
           "id": "kml_base_ground",
-          "title": "地上基地",
+          "title": "地上部隊拠点",
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/019.png",
-          "url": "./kml/baseGround.kml",
+          "url": "https://atsu-labs.github.io/gismap/kml/拠点【地上部隊】.kml",
           "cocotile": false,
           "minZoom": 5,
           "maxZoom": 18,
@@ -43,30 +43,30 @@
         {
           "type": "Layer",
           "id": "kml_base_air",
-          "title": "航空基地",
+          "title": "航空部隊拠点",
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/019.png",
-          "url": "./kml/baseAir.kml",
+          "url": "https://atsu-labs.github.io/gismap/kml/拠点【航空部隊】.kml",
           "cocotile": false,
           "minZoom": 5,
           "maxZoom": 18,
-          "html": "<div class='layer_text'>航空基地の位置を表示します。</div>"
+          "html": "<div class='layer_text'>航空部隊拠点の位置を表示します。</div>"
         },
         {
           "type": "Layer",
           "id": "kml_forward_base_ground",
-          "title": "前進地上基地",
+          "title": "前進地上拠点",
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/019.png",
-          "url": "./kml/forwardBaseGround.kml",
+          "url": "https://atsu-labs.github.io/gismap/kml/前進拠点.kml",
           "cocotile": false,
           "minZoom": 5,
           "maxZoom": 18,
-          "html": "<div class='layer_text'>前進地上基地の位置を表示します。</div>"
+          "html": "<div class='layer_text'>前進地上拠点の位置を表示します。</div>"
         },
         {
           "type": "Layer",
           "id": "kml_helicopter_landing",
           "title": "ヘリコプター離着陸場",
-          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/110.png",
+          "url": "https://atsu-labs.github.io/gismap/kml/ヘリ離発着.kml",
           "url": "./kml/helicopterLanding.kml",
           "cocotile": false,
           "minZoom": 5,
@@ -76,9 +76,9 @@
         {
           "type": "Layer",
           "id": "kml_refueling_ground",
-          "title": "地上給油所",
+          "title": "地上部隊給油所",
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/208.png",
-          "url": "./kml/refuelingGround.kml",
+          "url": "https://atsu-labs.github.io/gismap/kml/給油【地上部隊】.kml",
           "cocotile": false,
           "minZoom": 5,
           "maxZoom": 18,
@@ -87,9 +87,9 @@
         {
           "type": "Layer",
           "id": "kml_refueling_air",
-          "title": "航空給油所",
+          "title": "航空部隊給油所",
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/208.png",
-          "url": "./kml/refuelingAir.kml",
+          "url": "https://atsu-labs.github.io/gismap/kml/給油【航空部隊】.kml",
           "cocotile": false,
           "minZoom": 5,
           "maxZoom": 18,
