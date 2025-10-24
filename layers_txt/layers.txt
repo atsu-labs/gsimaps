@@ -1,5 +1,8 @@
 [
 	{
+		"url": "./layers_kml.txt"
+	},
+	{
 		"url": "./layers_geojson_sample.txt"
 	},
 	{
