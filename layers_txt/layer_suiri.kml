@@ -1,0 +1,46 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "消防水利",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/600.png",
+      "toggleall": false,
+      "html": "<div class='layer_text'>消防水利の位置情報を表示します。</div>",
+      "entries": [
+        {
+          "type": "Layer",
+          "id": "kml_ground",
+          "title": "地上式",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/319.png",
+          "url": "https://atsu-labs.github.io/gismap/kml/地上式.kml",
+          "cocotile": false,
+          "minZoom": 16,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>地上式消火栓の位置を表示します。</div>"
+        },
+        {
+          "type": "Layer",
+          "id": "kml_basement",
+          "title": "地下式",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/377.png",
+          "url": "https://atsu-labs.github.io/gismap/kml/地下式.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>地下式消火栓の位置を表示します。</div>"
+        },
+        {
+          "type": "Layer",
+          "id": "kml_tunk",
+          "title": "防火水槽",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/019.png",
+          "url": "https://atsu-labs.github.io/gismap/kml/防火水槽.kml",
+          "cocotile": false,
+          "minZoom": 5,
+          "maxZoom": 18,
+          "html": "<div class='layer_text'>防火水槽の位置を表示します。</div>"
+        }
+      ]
+    }
+  ]
+}
