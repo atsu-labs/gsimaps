@@ -28,6 +28,9 @@ X: https://x.com/hashtag/gsimaps
 
 いずれにせよ本レポジトリに適宜同期していただければ、特段問題が発生しないように運用を進めていければと考えています。
 
+## カスタマイズ
+- 独自レイヤーを追加する方法：[CUSTOM_LAYERS_GUIDE.md](CUSTOM_LAYERS_GUIDE.md)
+
 ## See Also
 - レイヤ定義ファイル編集ツール（本レポジトリからの提供）：https://gsi-cyberjapan.github.io/gsimaps/config.html
 - レイヤ定義規約（別レポジトリからの提供）：https://github.com/gsi-cyberjapan/layers-dot-txt-spec
