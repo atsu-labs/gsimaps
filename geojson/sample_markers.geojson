@@ -6,7 +6,10 @@
       "properties": {
         "name": "東京タワー",
         "description": "東京の観光名所",
-        "category": "観光地"
+        "category": "観光地",
+        "_iconUrl": "icons/local_hospital_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.svg",
+        "_iconSize": [24, 24],
+        "_iconAnchor": [12, 24]
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +21,10 @@
       "properties": {
         "name": "国土地理院",
         "description": "つくば本院",
-        "category": "公共施設"
+        "category": "公共施設",
+        "_iconUrl": "icons/local_hospital_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.svg",
+        "_iconSize": [24, 24],
+        "_iconAnchor": [12, 24]
       },
       "geometry": {
         "type": "Point",
@@ -30,7 +36,10 @@
       "properties": {
         "name": "富士山",
         "description": "日本最高峰",
-        "category": "自然"
+        "category": "自然",
+        "_iconUrl": "icons/local_hospital_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.svg",
+        "_iconSize": [24, 24],
+        "_iconAnchor": [12, 24]
       },
       "geometry": {
         "type": "Point",
@@ -42,7 +51,10 @@
       "properties": {
         "name": "大阪城",
         "description": "歴史的建造物",
-        "category": "観光地"
+        "category": "観光地",
+        "_iconUrl": "icons/local_hospital_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.svg",
+        "_iconSize": [24, 24],
+        "_iconAnchor": [12, 24]
       },
       "geometry": {
         "type": "Point",
@@ -54,7 +66,10 @@
       "properties": {
         "name": "札幌時計台",
         "description": "札幌のシンボル",
-        "category": "観光地"
+        "category": "観光地",
+        "_iconUrl": "icons/local_hospital_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.svg",
+        "_iconSize": [24, 24],
+        "_iconAnchor": [12, 24]
       },
       "geometry": {
         "type": "Point",
