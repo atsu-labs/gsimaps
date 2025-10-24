@@ -2,7 +2,7 @@
   "layers": [
     {
       "type": "LayerGroup",
-      "title": "消防水利",
+      "title": "消防水利（拡大で表示）",
       "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/600.png",
       "toggleall": false,
       "html": "<div class='layer_text'>消防水利の位置情報を表示します。</div>",
@@ -14,7 +14,7 @@
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/319.png",
           "url": "https://atsu-labs.github.io/gismap/kml/地上式.kml",
           "cocotile": false,
-          "minZoom": 16,
+          "minZoom": 15,
           "maxZoom": 18,
           "html": "<div class='layer_text'>地上式消火栓の位置を表示します。</div>"
         },
@@ -25,7 +25,7 @@
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/377.png",
           "url": "https://atsu-labs.github.io/gismap/kml/地下式.kml",
           "cocotile": false,
-          "minZoom": 5,
+          "minZoom": 15,
           "maxZoom": 18,
           "html": "<div class='layer_text'>地下式消火栓の位置を表示します。</div>"
         },
@@ -36,7 +36,7 @@
           "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/019.png",
           "url": "https://atsu-labs.github.io/gismap/kml/防火水槽.kml",
           "cocotile": false,
-          "minZoom": 5,
+          "minZoom": 15,
           "maxZoom": 18,
           "html": "<div class='layer_text'>防火水槽の位置を表示します。</div>"
         }
