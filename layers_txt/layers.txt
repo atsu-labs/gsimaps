@@ -3,7 +3,7 @@
 		"url": "./layers_kml.txt"
 	},
 	{
-		"url": "./layers_geojson_sample.txt"
+		"url": "./layers_suiri.txt"
 	},
 	{
 		"url": "./layers_topic_20250815rain.txt"
