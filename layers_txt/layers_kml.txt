@@ -2,10 +2,10 @@
   "layers": [
     {
       "type": "LayerGroup",
-      "title": "KMLレイヤー",
+      "title": "受援拠点",
       "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/600.png",
       "toggleall": false,
-      "html": "<div class='layer_text'>kmlディレクトリ内のKMLファイルから作成したカスタムレイヤーです。災害対応施設や重要施設の位置情報を表示します。</div>",
+      "html": "<div class='layer_text'>受援拠点施設の位置情報を表示します。</div>",
       "entries": [
         {
           "type": "Layer",
