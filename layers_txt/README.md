@@ -60,12 +60,16 @@
 
 ### 参考例
 
-`layers_custom_example.txt` に、以下の例が含まれています：
+- **`layers_custom_example.txt`** - 実際に動作するサンプルコード
+- **`EXAMPLES.md`** - 実践的な例とテンプレート集
+
+これらの例には以下が含まれています：
 
 - 基本的なタイルレイヤー
 - GeoJSONレイヤー
 - 外部タイルサーバー（OpenStreetMapなど）
 - ネストされたレイヤーグループ
+- 災害情報レイヤーなどの実践例
 
 ### より詳しい情報
 
@@ -138,12 +142,16 @@ All layer definition files are in JSON format. They can contain:
 
 ### Reference Examples
 
-See `layers_custom_example.txt` for examples of:
+- **`layers_custom_example.txt`** - Working sample code
+- **`EXAMPLES.md`** - Practical examples and templates
+
+These examples include:
 
 - Basic tile layers
 - GeoJSON layers
 - External tile servers (OpenStreetMap, etc.)
 - Nested layer groups
+- Real-world examples like disaster information layers
 
 ### More Information
 
