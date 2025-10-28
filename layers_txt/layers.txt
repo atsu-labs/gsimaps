@@ -6,9 +6,9 @@
 		"url": "./layers_suiri.txt"
 	},
 	{
-		"url": "./layers6.txt"
+		"url": "./layers_kasaneruhazardmap.txt"
 	},
 	{
-		"url": "./layers7.txt"
+		"url": "./layers5.txt"
 	}
 ]
