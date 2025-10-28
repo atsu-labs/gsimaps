@@ -33,14 +33,12 @@
     },
     {
       "type": "Layer",
-      "id": "english",
-      "title": "English",
-      "url": "https://maps.gsi.go.jp/xyz/english/{z}/{x}/{y}.png?_=20210915a",
-      "cocotile": true,
-      "maxNativeZoom": 11,
-      "html" : "",
-      "legendUrl": "https://maps.gsi.go.jp/development/ichiran.html#english",
-      "errorTileUrl": "./image/map/no-data-english.png"
+      "id": "openstreetmap",
+      "title": "OpenStreetMap",
+      "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "minZoom": 0,
+      "maxZoom": 19,
+      "html": "<div class='layer_text'>OpenStreetMapは、誰でも自由に地図を使えるよう、オープンデータの地図を作るプロジェクトです。</div><div class='gsi_layerinfo_copy'>© OpenStreetMap contributors</div>"
     },
     {
       "type": "Layer",
