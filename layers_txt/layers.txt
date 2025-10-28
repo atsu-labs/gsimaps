@@ -6,15 +6,6 @@
 		"url": "./layers_suiri.txt"
 	},
 	{
-		"url": "./layers_topic_20250815rain.txt"
-	},
-	{
-		"url": "./layers_topic_20240923rain.txt"
-	},
-	{
-		"url": "./layers_topic_20240102noto.txt"
-	},
-	{
 		"url": "./layers1.txt"
 	},
 	{
